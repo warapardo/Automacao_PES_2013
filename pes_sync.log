@@ -175,3 +175,9 @@ RuntimeError: Existem alteracoes locais pendentes. Download bloqueado para prese
 2026-11-08 12:33:40,528 | INFO | Backup remoto antigo removido: 20261029_162123_068315
 2026-11-08 12:33:42,517 | INFO | Backup remoto antigo removido: 20261029_132609_556026
 2026-11-08 12:33:42,518 | INFO | === Execucao concluida sem erros ===
+2026-11-08 13:33:20,702 | INFO | === Inicio da execucao ===
+2026-11-08 13:33:34,097 | INFO | Saves locais e remotos iguais (27 arquivos)
+2026-11-08 13:33:34,272 | INFO | Abrindo PES 2013
+2026-11-08 13:35:05,204 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-08 13:35:17,412 | INFO | Nenhuma alteracao para enviar
+2026-11-08 13:35:18,810 | INFO | === Execucao concluida sem erros ===
