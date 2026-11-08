@@ -1,0 +1,177 @@
+2026-10-29 12:40:41,127 | INFO | === Inicio da execucao ===
+2026-10-29 12:41:30,916 | INFO | === Inicio da execucao ===
+2026-10-29 12:41:39,858 | INFO | Saves locais e remotos iguais (17 arquivos)
+2026-10-29 12:41:39,965 | INFO | Abrindo PES 2013
+2026-10-29 12:47:44,484 | INFO | === Inicio da execucao ===
+2026-10-29 12:47:53,025 | INFO | Saves locais e remotos iguais (17 arquivos)
+2026-10-29 12:47:53,129 | INFO | Abrindo PES 2013
+2026-10-29 12:48:28,290 | INFO | PES 2013 encerrado (codigo: 0)
+2026-10-29 12:48:37,391 | INFO | Nenhuma alteracao para enviar
+2026-10-29 12:48:37,391 | INFO | === Execucao concluida sem erros ===
+2026-10-29 12:57:02,514 | INFO | === Inicio da execucao ===
+2026-10-29 12:57:11,351 | INFO | Saves locais e remotos iguais (17 arquivos)
+2026-10-29 12:57:11,461 | INFO | Abrindo PES 2013
+2026-10-29 13:26:00,436 | INFO | PES 2013 encerrado (codigo: 0)
+2026-10-29 13:26:09,555 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261029_132609_412151
+2026-10-29 13:26:29,353 | INFO | Upload confirmado (17 arquivos)
+2026-10-29 13:26:29,353 | INFO | === Execucao concluida sem erros ===
+2026-10-29 14:00:29,879 | INFO | === Inicio da execucao ===
+2026-10-29 14:00:38,956 | INFO | Saves locais e remotos iguais (17 arquivos)
+2026-10-29 14:00:39,062 | INFO | Abrindo PES 2013
+2026-10-29 16:21:13,952 | INFO | PES 2013 encerrado (codigo: 0)
+2026-10-29 16:21:23,068 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261029_162123_010409
+2026-10-29 16:21:42,354 | INFO | Upload confirmado (17 arquivos)
+2026-10-29 16:21:42,354 | INFO | === Execucao concluida sem erros ===
+2026-10-31 15:48:43,968 | INFO | === Inicio da execucao ===
+2026-10-31 15:48:55,666 | INFO | Saves locais e remotos iguais (17 arquivos)
+2026-10-31 15:48:55,771 | INFO | Abrindo PES 2013
+2026-10-31 15:51:11,558 | INFO | PES 2013 encerrado (codigo: 0)
+2026-10-31 15:51:20,437 | INFO | Nenhuma alteracao para enviar
+2026-10-31 15:51:20,437 | INFO | === Execucao concluida sem erros ===
+2026-11-04 18:34:00,968 | INFO | === Inicio da execucao ===
+2026-11-04 18:34:16,454 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261104_183416_397443
+2026-11-04 18:34:16,825 | INFO | Download concluido (20 arquivos)
+2026-11-04 18:34:16,966 | INFO | Abrindo PES 2013
+2026-11-04 18:37:34,712 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-04 18:38:05,452 | INFO | Nenhuma alteracao para enviar
+2026-11-04 18:38:05,452 | INFO | === Execucao concluida sem erros ===
+2026-11-04 18:40:29,834 | INFO | === Inicio da execucao ===
+2026-11-04 18:40:40,908 | INFO | Saves locais e remotos iguais (20 arquivos)
+2026-11-04 18:40:41,041 | INFO | Abrindo PES 2013
+2026-11-04 19:02:15,158 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-04 19:02:26,262 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261104_190226_186765
+2026-11-04 19:02:46,496 | INFO | Upload confirmado (20 arquivos)
+2026-11-04 19:02:46,496 | INFO | === Execucao concluida sem erros ===
+2026-11-04 19:05:13,624 | INFO | === Inicio da execucao ===
+2026-11-04 19:11:14,951 | INFO | === Inicio da execucao ===
+2026-11-04 19:11:25,621 | INFO | Saves locais e remotos iguais (20 arquivos)
+2026-11-04 19:11:25,747 | INFO | Abrindo PES 2013
+2026-11-04 19:40:06,136 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-04 19:40:16,465 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261104_194016_385913
+2026-11-04 19:40:36,890 | INFO | Upload confirmado (21 arquivos)
+2026-11-04 19:40:36,891 | INFO | === Execucao concluida sem erros ===
+2026-11-05 18:10:37,794 | INFO | === Inicio da execucao ===
+2026-11-05 18:10:38,413 | ERROR | Falha na automacao
+Traceback (most recent call last):
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 159, in main
+    baixar_temporario(remoto)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 67, in baixar_temporario
+    rclone("lsf", NUVEM)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 32, in rclone
+    raise RuntimeError(
+RuntimeError: Erro do Rclone: 2026/11/05 18:10:38 CRITICAL: Failed to create file system for "backup_nuvem:PES2013_Sync/save": couldn't find root directory ID: Get "https://www.googleapis.com/drive/v3/files/root?alt=json&fields=id&prettyPrint=false&supportsAllDrives=true": couldn't fetch token: invalid_grant: maybe token expired? - try refreshing with "rclone config reconnect backup_nuvem:"
+2026-11-05 18:11:53,319 | INFO | === Inicio da execucao ===
+2026-11-05 18:11:53,813 | ERROR | Falha na automacao
+Traceback (most recent call last):
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 159, in main
+    baixar_temporario(remoto)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 67, in baixar_temporario
+    rclone("lsf", NUVEM)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 32, in rclone
+    raise RuntimeError(
+RuntimeError: Erro do Rclone: 2026/11/05 18:11:53 CRITICAL: Failed to create file system for "backup_nuvem:PES2013_Sync/save": couldn't find root directory ID: Get "https://www.googleapis.com/drive/v3/files/root?alt=json&fields=id&prettyPrint=false&supportsAllDrives=true": couldn't fetch token: invalid_grant: maybe token expired? - try refreshing with "rclone config reconnect backup_nuvem:"
+2026-11-05 18:16:28,718 | INFO | === Inicio da execucao ===
+2026-11-05 18:16:41,635 | ERROR | Falha na automacao
+Traceback (most recent call last):
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 160, in main
+    preparar_saves(remoto)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 100, in preparar_saves
+    raise RuntimeError("Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.")
+RuntimeError: Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.
+2026-11-05 18:21:47,464 | INFO | === Inicio da execucao ===
+2026-11-05 18:21:57,531 | INFO | Estado inicial registrado (20 arquivos)
+2026-11-05 18:21:57,672 | INFO | Abrindo PES 2013
+2026-11-05 18:30:59,111 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-05 18:31:09,913 | INFO | Nenhuma alteracao para enviar
+2026-11-05 18:31:09,914 | INFO | === Execucao concluida sem erros ===
+2026-11-05 18:31:31,604 | INFO | === Inicio da execucao ===
+2026-11-05 18:31:41,619 | INFO | Saves locais e remotos iguais (20 arquivos)
+2026-11-05 18:31:41,749 | INFO | Abrindo PES 2013
+2026-11-05 20:17:13,124 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-05 20:17:24,814 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261105_201724_735012
+2026-11-05 20:17:42,877 | INFO | Upload confirmado (21 arquivos)
+2026-11-05 20:17:42,877 | INFO | === Execucao concluida sem erros ===
+2026-11-05 21:52:31,139 | INFO | === Inicio da execucao ===
+2026-11-05 21:52:42,743 | INFO | Saves locais e remotos iguais (21 arquivos)
+2026-11-05 21:52:42,883 | INFO | Abrindo PES 2013
+2026-11-05 22:48:32,357 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-05 22:48:43,726 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261105_224843_650539
+2026-11-05 22:49:03,624 | INFO | Upload confirmado (21 arquivos)
+2026-11-05 22:49:03,625 | INFO | === Execucao concluida sem erros ===
+2026-11-06 13:47:03,919 | INFO | === Inicio da execucao ===
+2026-11-06 13:47:18,470 | INFO | Saves locais e remotos iguais (21 arquivos)
+2026-11-06 13:47:18,618 | INFO | Abrindo PES 2013
+2026-11-06 15:35:07,599 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-06 15:35:21,218 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261106_153521_132653
+2026-11-06 15:35:42,740 | INFO | Upload confirmado (21 arquivos)
+2026-11-06 15:35:42,741 | INFO | === Execucao concluida sem erros ===
+2026-11-07 21:56:53,814 | INFO | === Inicio da execucao ===
+2026-11-07 21:57:06,939 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261107_215706_860519
+2026-11-07 21:57:07,227 | INFO | Download concluido (21 arquivos)
+2026-11-07 21:57:07,377 | INFO | Abrindo PES 2013
+2026-11-07 23:27:16,161 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-07 23:27:28,188 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261107_232728_116135
+2026-11-07 23:27:48,517 | INFO | Upload confirmado (21 arquivos)
+2026-11-07 23:27:48,517 | INFO | === Execucao concluida sem erros ===
+2026-11-08 11:12:06,391 | INFO | === Inicio da execucao ===
+2026-11-08 11:12:18,593 | ERROR | Falha na automacao
+Traceback (most recent call last):
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 160, in main
+    preparar_saves(remoto)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 100, in preparar_saves
+    raise RuntimeError("Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.")
+RuntimeError: Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.
+2026-11-08 11:31:02,753 | INFO | === Inicio da execucao ===
+2026-11-08 11:31:13,481 | ERROR | Falha na automacao
+Traceback (most recent call last):
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 160, in main
+    preparar_saves(remoto)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 100, in preparar_saves
+    raise RuntimeError("Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.")
+RuntimeError: Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.
+2026-11-08 11:50:37,230 | INFO | === Inicio da execucao ===
+2026-11-08 11:50:46,914 | INFO | Estado inicial registrado (21 arquivos)
+2026-11-08 11:50:47,056 | INFO | Abrindo PES 2013
+2026-11-08 11:51:35,027 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-08 11:51:45,541 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261108_115145_457431
+2026-11-08 11:52:03,473 | INFO | Upload confirmado (21 arquivos)
+2026-11-08 11:52:03,473 | INFO | === Execucao concluida sem erros ===
+2026-11-08 12:22:16,954 | INFO | === Inicio da execucao ===
+2026-11-08 12:22:27,760 | ERROR | Falha na automacao
+Traceback (most recent call last):
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 215, in main
+    preparar_saves(remoto)
+  File "C:\Users\warap\Documents\Automacao_PES_2013\pes_sync.py", line 103, in preparar_saves
+    raise RuntimeError("Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.")
+RuntimeError: Existem alteracoes locais pendentes. Download bloqueado para preservar o progresso.
+2026-11-08 12:30:11,950 | INFO | === Inicio da execucao ===
+2026-11-08 12:30:22,631 | INFO | Alteracoes locais detectadas fora da automacao.
+2026-11-08 12:30:22,738 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261108_123022_631389
+2026-11-08 12:30:55,565 | INFO | Upload local confirmado (27 arquivos)
+2026-11-08 12:30:55,781 | INFO | Abrindo PES 2013
+2026-11-08 12:32:46,270 | INFO | PES 2013 encerrado (codigo: 0)
+2026-11-08 12:32:58,628 | INFO | Backup local criado: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261108_123258_527946
+2026-11-08 12:33:17,744 | INFO | Upload confirmado (27 arquivos)
+2026-11-08 12:33:17,752 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261107_232728_116135
+2026-11-08 12:33:17,759 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261107_215706_860519
+2026-11-08 12:33:17,766 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261106_153521_132653
+2026-11-08 12:33:17,772 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261105_224843_650539
+2026-11-08 12:33:17,779 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261105_201724_735012
+2026-11-08 12:33:17,786 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261104_194016_385913
+2026-11-08 12:33:17,793 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261104_190226_186765
+2026-11-08 12:33:17,798 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261104_183416_397443
+2026-11-08 12:33:17,805 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261029_162123_010409
+2026-11-08 12:33:17,810 | INFO | Backup antigo removido: C:\Users\warap\Documents\Automacao_PES_2013\backups\20261029_132609_412151
+2026-11-08 12:33:21,033 | INFO | Backup remoto antigo removido: 20261108_110744_252309
+2026-11-08 12:33:22,951 | INFO | Backup remoto antigo removido: 20261107_232728_189657
+2026-11-08 12:33:25,003 | INFO | Backup remoto antigo removido: 20261107_173628_549458
+2026-11-08 12:33:26,927 | INFO | Backup remoto antigo removido: 20261107_140830_869361
+2026-11-08 12:33:28,812 | INFO | Backup remoto antigo removido: 20261106_153521_218087
+2026-11-08 12:33:30,712 | INFO | Backup remoto antigo removido: 20261105_224843_726165
+2026-11-08 12:33:32,658 | INFO | Backup remoto antigo removido: 20261105_201724_814006
+2026-11-08 12:33:34,592 | INFO | Backup remoto antigo removido: 20261104_194016_465381
+2026-11-08 12:33:36,562 | INFO | Backup remoto antigo removido: 20261104_190226_262316
+2026-11-08 12:33:38,583 | INFO | Backup remoto antigo removido: 20261102_150714_122978
+2026-11-08 12:33:40,528 | INFO | Backup remoto antigo removido: 20261029_162123_068315
+2026-11-08 12:33:42,517 | INFO | Backup remoto antigo removido: 20261029_132609_556026
+2026-11-08 12:33:42,518 | INFO | === Execucao concluida sem erros ===
